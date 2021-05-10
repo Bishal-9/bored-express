@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, #a6d6d6, #ededd0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15vh;
+}
+
+.home__headerForm .MuiFormLabel-root.Mui-focused {
+    color: #907fa4;
+}
+
+.MuiInput-root::after {
+    border-bottom: 2px solid #907fa4 !important;
+}
+
+.home__header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5em;
+    margin-right: 5vw;
+    color: #e84545;
+}
+
+.home__body {
+    font-family: 'Itim', cursive;
+    font-size: 2em;
+    color:  #907fa4;
+}
